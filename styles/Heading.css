@@ -1,0 +1,14 @@
+.big-heading{
+    font-family: var(--font-cinzel-decorative);
+    color: var(--theme-primary-color);
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+@media only screen and (max-width:425px){
+    .big-heading{
+        font-size: 35px;
+    }
+}
